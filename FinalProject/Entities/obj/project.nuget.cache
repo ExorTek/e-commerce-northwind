@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hs69s6eZa4GQtwJD5pqsDAF52jQGg4pABhZEidTFPSkzVp2aNzcgl5c0ZwwAES3xlFB6zFz9lPk1xLF6ehQNcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Memet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Memet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

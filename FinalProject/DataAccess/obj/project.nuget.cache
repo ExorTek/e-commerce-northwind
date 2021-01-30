@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2uIGWGdBBKAMjwzs8IpE7HMz/7QnaO5gFP2d0YOdDTA0C6uTDCaEZVgOj+TD5V67cVtLabHg9lWq8VgJogB0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Memet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Memet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
