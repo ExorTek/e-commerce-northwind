@@ -1,0 +1,12 @@
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.csprojAssemblyReference.cache
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.AssemblyInfoInputs.cache
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.AssemblyInfo.cs
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\bin\Debug\netstandard2.1\Entities.deps.json
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\bin\Debug\netstandard2.1\Entities.dll
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\bin\Debug\netstandard2.1\Entities.pdb
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\bin\Debug\netstandard2.1\Core.dll
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.csproj.CopyComplete
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.dll
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Entities\obj\Debug\netstandard2.1\Entities.pdb

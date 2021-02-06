@@ -70,3 +70,5 @@ C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreap
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\obj\Debug\netcoreapp3.1\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
