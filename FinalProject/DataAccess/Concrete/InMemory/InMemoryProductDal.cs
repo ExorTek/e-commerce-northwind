@@ -1,11 +1,11 @@
-﻿using System;
+﻿using DataAccess.Abstract;
+using Entities.Concrete;
+using Entities.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using DataAccess.Abstract;
-using Entities.Concrete;
-using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory
 {
@@ -58,7 +58,7 @@ namespace DataAccess.Concrete.InMemory
 
         public List<Product> GetAllByCategory(int categoryId)
         {
-           return _products.Where(p => p.CategoryId == categoryId).ToList();
+            return _products.Where(p => p.CategoryId == categoryId).ToList();
         }
 
         public void Update(Product product)

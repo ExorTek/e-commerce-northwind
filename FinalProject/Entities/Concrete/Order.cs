@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Entities;
 
 namespace Entities.Concrete
 {
@@ -12,5 +12,6 @@ namespace Entities.Concrete
         public int EmployeeId { get; set; }
         public DateTime OrderDate { get; set; }
         public string ShipCity { get; set; }
+
     }
 }

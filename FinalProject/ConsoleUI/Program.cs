@@ -1,10 +1,12 @@
-﻿using System;
-using Business.Concrete;
+﻿using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
+using System;
 
 namespace ConsoleUI
 {
+    //SOLID
+    //Open Closed Principle
     class Program
     {
         static void Main(string[] args)
@@ -38,6 +40,8 @@ namespace ConsoleUI
             {
                 Console.WriteLine(result.Message);
             }
+
+
 
         }
     }

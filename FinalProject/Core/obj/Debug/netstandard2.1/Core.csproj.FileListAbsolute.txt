@@ -1,9 +1,0 @@
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.csprojAssemblyReference.cache
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\bin\Debug\netstandard2.1\Core.deps.json
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\bin\Debug\netstandard2.1\Core.dll
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\bin\Debug\netstandard2.1\Core.pdb
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.dll
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\Core\obj\Debug\netstandard2.1\Core.pdb

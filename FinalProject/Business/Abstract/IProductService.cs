@@ -1,9 +1,9 @@
-﻿using Entities.Concrete;
+﻿using Core.Utilities.Results;
+using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Utilities.Results;
-using Entities.DTOs;
 
 namespace Business.Abstract
 {
@@ -15,5 +15,6 @@ namespace Business.Abstract
         IDataResult<List<ProductDetailDto>> GetProductDetails();
         IDataResult<Product> GetById(int productId);
         IResult Add(Product product);
+        //RESTFUL --> HTTP --> 
     }
 }
