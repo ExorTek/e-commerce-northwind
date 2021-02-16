@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

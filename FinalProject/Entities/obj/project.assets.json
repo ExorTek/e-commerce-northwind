@@ -6224,11 +6224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6249,8 +6249,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
             }
           }
         }

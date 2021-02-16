@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P2z7fy39yOV0Wobvmroj1WqPNZA2/9fmhF+jGSVLmVkCbnJGKD2cIteJidOqWW9lGMdx4SWHdiS7XSLS9PxXlQ==",
+  "dgSpecHash": "LBBxC2SI6z5BGF0NPa5vEXPRkeNFVECPw6PviVNUIpRbid19Uaj7nY7Mhq0lUw1HqJ7WJuTdaFY2ui1Vd7R5PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

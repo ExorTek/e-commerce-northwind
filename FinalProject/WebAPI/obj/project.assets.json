@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5760,17 +5760,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Memet\\Desktop\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Core\\Core.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }
