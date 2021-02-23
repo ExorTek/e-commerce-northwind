@@ -5977,11 +5977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6002,14 +6002,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
             }
           }
         }

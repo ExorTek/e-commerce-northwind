@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RfwiqIQalj7N4wJ9SZEID2dwCSiIRYbVsoGlxwWwVJFp9iy0kbvKR+geG+xubkCF3OwYFkYQWP//hK/omj6tZQ==",
+  "dgSpecHash": "wbEGLO+ADRMMhzVGUhcqD7N6/SSIcnYKwe994/A1wgs+GTDZMVkEkJX4RI+WlwXCP2p51UPMI+HxeO8bYbZGrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

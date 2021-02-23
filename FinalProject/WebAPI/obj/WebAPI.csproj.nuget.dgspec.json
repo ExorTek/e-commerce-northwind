@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -32,11 +32,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -165,14 +165,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -193,11 +193,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -265,8 +265,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
               }
             }
           }
@@ -302,14 +302,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -330,17 +330,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Business\\Business.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }

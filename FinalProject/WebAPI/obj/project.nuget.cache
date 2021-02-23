@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LZpVv6LNZly2ZreG9sbIqYYwiJPzHYXRJYPuPvPkLtS2g1bVT4TFFLW9HuKzJUhbnHZRL/mwVOeAb715toQEJg==",
+  "dgSpecHash": "aBAtX7DMS/PjVMYhGupeBsD4lbNFWXvL1EzOX/Ait0drcCOUGtkulCNet7CyVRjUi1tdZ7UTw4JSEKIh13i+3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
