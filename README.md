@@ -1,1 +1,1 @@
-# ExorTek (Mehmet Demirel)
+# ExorTek
