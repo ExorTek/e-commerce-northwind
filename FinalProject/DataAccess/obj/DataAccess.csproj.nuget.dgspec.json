@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,6 +44,22 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -69,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -97,11 +113,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -141,14 +157,14 @@
         }
       }
     },
-    "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -169,8 +185,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj"
+              "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Memet\\Desktop\\MyFinalProject - Kopya\\FinalProject\\Core\\Core.csproj"
               }
             }
           }

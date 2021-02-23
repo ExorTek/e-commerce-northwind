@@ -11,7 +11,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            //Data Transformation Object
             ProductTest();
+            //IoC 
             //CategoryTest();
         }
 
@@ -27,13 +29,14 @@ namespace ConsoleUI
         private static void ProductTest()
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
+
             var result = productManager.GetProductDetails();
 
-            if (result.Success == true)
+            if (result.Success==true)
             {
                 foreach (var product in result.Data)
                 {
-                    Console.WriteLine("Product Name -> " + product.ProductName + " --> Category Name -> " + product.CategoryName);
+                    Console.WriteLine(product.ProductName + "/" + product.CategoryName);
                 }
             }
             else
@@ -41,8 +44,7 @@ namespace ConsoleUI
                 Console.WriteLine(result.Message);
             }
 
-
-
+            
         }
     }
 }
