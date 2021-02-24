@@ -12,14 +12,16 @@ namespace Core.Aspects.Autofac.Validation
     public class ValidationAspect : MethodInterception
     {
         private Type _validatorType;
+
         public ValidationAspect(Type validatorType)
         {
             if (!typeof(IValidator).IsAssignableFrom(validatorType))
             {
-                throw new System.Exception("This is not a Validation class!");
+                throw new System.Exception("This is not a validation class");
             }
             _validatorType = validatorType;
         }
+
         protected override void OnBefore(IInvocation invocation)
         {
             var validator = (IValidator)Activator.CreateInstance(_validatorType);
