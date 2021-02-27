@@ -1,7 +1,4 @@
-﻿using Entities.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Core.Entities.Concrete;
 
 namespace Business.Constants
 {
@@ -14,5 +11,12 @@ namespace Business.Constants
         public static string ProductCountOfCategoryError = "There can be a maximum of 10 products in a category";
         public static string ProductNameAlreadyExists = "There is already another product with this name";
         public static string CategoryLimitExceded = "Cannot add new products because the category limit is exceeded";
+        public static string AuthorizationDenied = "Authorization denied";
+        public static string UserRegistered = "User register";
+        public static string UserNotFound = "User not found";
+        public static string PasswordError = "Wrong password";
+        public static string SuccessfulLogin = "Login successful";
+        public static string UserAlreadyExists = "User already exists";
+        public static string AccessTokenCreated = "Access token created";
     }
 }
