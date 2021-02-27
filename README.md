@@ -1,5 +1,7 @@
 # ExorTek
+Add to Northwind Databases
 
+//Cancel Changes
 CREATE TABLE [dbo].[Users]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
@@ -9,18 +11,18 @@ CREATE TABLE [dbo].[Users]
     [PasswordHash] BINARY(500) NOT NULL, 
     [PasswordSalt] BINARY(500) NOT NULL, 
     [Status] BIT NOT NULL
-)
+)//
 
+//
 CREATE TABLE [dbo].[OperationClaims]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Name] VARCHAR(250) NOT NULL
-)
+)//
 
+//
 CREATE TABLE [dbo].[UserOperationClaims] (
     [Id]               INT IDENTITY (1, 1) NOT NULL,
     [UserId]           INT NOT NULL,
     [OperationClaimId] INT NOT NULL,
-);
-
-
+)//
