@@ -72,3 +72,4 @@ C:\Users\Memet\Desktop\MyFinalProject\FinalProject\WebAPI\obj\Debug\netcoreapp3.
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Memet\Desktop\MyFinalProject\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\log4net.dll
