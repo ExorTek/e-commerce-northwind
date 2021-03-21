@@ -7,10 +7,10 @@ namespace ConsoleUI
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             ProductTest();
-            //CategoryTest();
+            CategoryTest();
         }
 
         private static void CategoryTest()
@@ -29,7 +29,7 @@ namespace ConsoleUI
 
             var result = productManager.GetProductDetails();
 
-            if (result.Success == true)
+            if (result.Success)
             {
                 foreach (var product in result.Data)
                 {

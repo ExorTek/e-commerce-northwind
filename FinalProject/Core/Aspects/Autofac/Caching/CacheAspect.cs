@@ -28,7 +28,6 @@ namespace Core.Aspects.Autofac.Caching
                 invocation.ReturnValue = _cacheManager.Get(key);
                 return;
             }
-
             invocation.Proceed();
             _cacheManager.Add(key, invocation.ReturnValue, _duration);
         }

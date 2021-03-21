@@ -2,13 +2,14 @@
 using Castle.DynamicProxy;
 using Core.Extensions;
 using Core.Utilities.Interceptors;
-using Microsoft.AspNetCore.Http;
-using System;
 using Core.Utilities.IoC;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace Business.BusinessAspects.Autofac
 {
+    //JWT
     public class SecuredOperation : MethodInterception
     {
         private string[] _roles;

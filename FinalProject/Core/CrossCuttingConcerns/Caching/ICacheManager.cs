@@ -8,5 +8,6 @@
         bool IsAdd(string key);
         void Remove(string key);
         void RemoveByPattern(string pattern);
+
     }
 }
