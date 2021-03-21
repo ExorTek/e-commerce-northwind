@@ -16,7 +16,6 @@ import {ToastrModule} from 'ngx-toastr';
 import {CartSummaryComponent} from './components/cart-summary/cart-summary.component';
 import {ProductAddComponent} from './components/product-add/product-add.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,8 +32,8 @@ import {ProductAddComponent} from './components/product-add/product-add.componen
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right'
     })

@@ -1,8 +1,7 @@
-
-import { Component, OnInit } from '@angular/core';
-import {FormGroup,FormBuilder, FormControl, Validators} from "@angular/forms"
-import { ToastrService } from 'ngx-toastr';
-import { ProductService } from 'src/app/services/product.service';
+import {Component, OnInit} from '@angular/core';
+import {FormGroup, FormBuilder, FormControl, Validators} from '@angular/forms';
+import {ToastrService} from 'ngx-toastr';
+import {ProductService} from 'src/app/services/product.service';
 
 
 @Component({
@@ -12,36 +11,41 @@ import { ProductService } from 'src/app/services/product.service';
 })
 export class ProductAddComponent implements OnInit {
 
-  productAddForm : FormGroup;
-  constructor(private formBuilder:FormBuilder,
-              private productService:ProductService, private toastrService:ToastrService) { }
+  productAddForm: FormGroup;
+
+  constructor(private formBuilder: FormBuilder,
+              private productService: ProductService, private toasterService: ToastrService) {
+  }
 
   ngOnInit(): void {
     this.createProductAddForm();
   }
 
-  createProductAddForm(){
+  createProductAddForm() {
     this.productAddForm = this.formBuilder.group({
-      productName:["",Validators.required],
-      unitPrice: ["",Validators.required],
-      unitsInStock:["", Validators.required],
-      categoryId:["",Validators.required]
-    })
+      productName: ['', Validators.required],
+      unitPrice: ['', Validators.required],
+      unitsInStock: ['', Validators.required],
+      categoryId: ['', Validators.required]
+    });
   }
 
-  add(){
-    if(this.productAddForm.valid){
-      let productModel = Object.assign({},this.productAddForm.value)
-      this.productService.add(productModel).subscribe(response=>{
-        console.log(response)
-        this.toastrService.success(response.message,"Başarılı")
-      },responseError=>{
-        console.log(responseError.error)
-        this.toastrService.error(responseError.error)
-      })
+  add() {
+    if (this.productAddForm.valid) {
+      let productModel = Object.assign({}, this.productAddForm.value);
+      this.productService.add(productModel).subscribe(response => {
+        this.toasterService.success(response.message, 'Successful!');
+      }, responseError => {
+        if (responseError.error.Errors.length > 0) {
+          for (let i = 0; i < responseError.error.Errors.length; i++) {
+            this.toasterService.error(responseError.error.Errors[i].ErrorMessage
+              , 'Verification error');
+          }
+        }
+      });
 
-    }else{
-      this.toastrService.error("Formunuz eksik","Dikkat")
+    } else {
+      this.toasterService.error('Your form is incomplete.', 'Warning!');
     }
 
   }

@@ -71,4 +71,3 @@ C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreap
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
-C:\Users\Memet\Desktop\MyFinalProject\FinalProject\ConsoleUI\bin\Debug\netcoreapp3.1\log4net.dll
