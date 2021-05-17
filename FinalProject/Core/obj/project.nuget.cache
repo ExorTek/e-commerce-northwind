@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qJ00lYhKwQdKd5z3ikcj7BnGAFo2Of0c2ivDJ0kQRDDRz3iOzQCwp1LymG0NWdxLmaEOagGShOrBXSyOd8Ho2g==",
+  "dgSpecHash": "+PQdRD0smrwTl5T93xq5gDXY9+GHBKOptFZs3kst/vOmMp7B1Q7HG8OguB3WEqt7Kq+PG8tpbtlZe2D28dkJCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\MyFinalProject\\FinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\my-final-project\\FinalProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

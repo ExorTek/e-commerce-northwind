@@ -1,0 +1,26 @@
+CREATE TABLE [dbo].[Users]
+(
+    [Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [FirstName] NVARCHAR(30) NOT NULL, 
+    [LastName] NVARCHAR(30) NOT NULL, 
+    [Email] NVARCHAR(30) NOT NULL, 
+    [PasswordSalt] VARBINARY(MAX) NOT NULL, 
+    [PasswordHash] VARBINARY(MAX) NOT NULL, 
+    [Status] BIT NOT NULL
+);
+
+CREATE TABLE [dbo].[OperationClaims] (
+    [Id]   INT           IDENTITY (1, 1) NOT NULL,
+    [Name] VARCHAR (250) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[UserOperationClaims] (
+    [Id]               INT NOT NULL,
+    [UserId]           INT NOT NULL,
+    [OperationClaimId] INT NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_UserOperationClaims_OperationClaims] FOREIGN KEY ([OperationClaimId]) REFERENCES [dbo].[OperationsClaims] ([Id]),
+    CONSTRAINT [FK_UserOperationClaims_Users] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
+);
+
