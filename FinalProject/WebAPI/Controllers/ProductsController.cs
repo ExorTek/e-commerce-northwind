@@ -10,7 +10,6 @@ namespace WebAPI.Controllers
     public class ProductsController : ControllerBase
     {
         IProductService _productService;
-
         public ProductsController(IProductService productService)
         {
             _productService = productService;
@@ -20,7 +19,7 @@ namespace WebAPI.Controllers
         public IActionResult GetAll()
         {
             
-            //Thread.Sleep(1000);
+            Thread.Sleep(5000);
 
             var result =  _productService.GetAll();
             if (result.Success)

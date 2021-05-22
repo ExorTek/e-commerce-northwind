@@ -1,0 +1,22 @@
+<form [formGroup]="registerForm" class="login-form">
+  <h2>Register</h2>
+  <div class="txtb">
+    <input formControlName="firstName" type="text">
+    <span data-placeholder="Name"></span>
+  </div>
+  <div class="txtb">
+    <input formControlName="lastName" type="text">
+    <span data-placeholder="Surname"></span>
+  </div>
+  <div class="txtb">
+    <input formControlName="email" type="email">
+    <span data-placeholder="Email"></span>
+  </div>
+
+  <div class="txtb">
+    <input formControlName="password" type="password">
+    <span data-placeholder="Password"></span>
+  </div>
+
+  <input (click)="register()" type="submit" class="logbtn" value="Register">
+</form>

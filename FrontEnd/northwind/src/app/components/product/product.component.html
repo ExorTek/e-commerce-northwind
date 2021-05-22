@@ -28,8 +28,8 @@
     <td>{{ product.productId }}</td>
     <td>{{ product.productName | uppercase}}</td>
     <td>{{ product.categoryId }}</td>
-    <td>{{ product.unitPrice |currency:"₺" }}</td>
-    <td>{{ product.unitPrice |vatAdded:18 | currency:"₺" }}</td>
+    <td>{{ product.unitPrice |currency:"a" }}</td>
+    <td>{{ product.unitPrice |vatAdded:18 | currency:"a" }}</td>
     <td>{{ product.unitsInStock }}</td>
     <td>
       <button (click)="addToCart(product)"

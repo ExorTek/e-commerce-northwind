@@ -4,13 +4,14 @@ import {Observable} from 'rxjs';
 import {ListResponseModel} from '../models/ListResponseModel';
 import {Product} from '../models/product';
 import {ResponseModel} from '../models/responseModel';
+import {environment} from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-
-  apiUrl = 'http://localhost:5001/api/';
+  apiUrl = environment.apiUrl;
+  //apiUrl = 'http://localhost:5001/api/';
 
   constructor(private httpClient: HttpClient) {
   }
