@@ -6,14 +6,12 @@ import {TokenModel} from '../models/tokenModel';
 import {LoginModel} from '../models/loginModel';
 import {Observable} from 'rxjs';
 import {RegisterModel} from '../models/registerModel';
-
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
   apiUrl = environment.apiUrl + 'auth/';
-
   constructor(private httpClient: HttpClient) {
   }
 

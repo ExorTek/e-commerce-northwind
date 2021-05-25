@@ -1,15 +1,15 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {ToastrService} from 'ngx-toastr';
-import {AuthService} from '../../services/auth.service';
+import {AuthService} from '../../../services/auth.service';
 import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-register',
-  templateUrl: './user-register.component.html',
-  styleUrls: ['./user-register.component.css']
+  templateUrl: './user-registration.component.html',
+  styleUrls: ['./user-registration.component.css']
 })
-export class UserRegisterComponent implements OnInit {
+export class UserRegistrationComponent implements OnInit {
 
   registerForm: FormGroup;
 
