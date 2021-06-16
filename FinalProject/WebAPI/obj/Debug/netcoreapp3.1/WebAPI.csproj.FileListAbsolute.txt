@@ -133,7 +133,6 @@ C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\bin\Debug\netcoreapp
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\DataAccess.pdb
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\bin\Debug\netcoreapp3.1\Entities.pdb
-C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
@@ -146,3 +145,4 @@ C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache

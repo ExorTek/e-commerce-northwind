@@ -17,5 +17,6 @@
         public static string UserAlreadyExists = "User already exists";
         public static string AccessTokenCreated = "Access token created";
         public static string ProductUpdated = "Product Update";
+        public static string GetProductDetail = "Show detail successful";
     }
 }

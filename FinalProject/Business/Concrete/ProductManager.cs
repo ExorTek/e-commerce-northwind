@@ -19,7 +19,7 @@ namespace Business.Concrete
         IProductDal _productDal;
         ICategoryService _categoryService;
 
-        public ProductManager(IProductDal productDal,ICategoryService categoryService)
+        public ProductManager(IProductDal productDal, ICategoryService categoryService)
         {
             _productDal = productDal;
             _categoryService = categoryService;
@@ -30,7 +30,7 @@ namespace Business.Concrete
         //[CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
-            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName), 
+            IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
                 CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
             if (result != null)
@@ -41,7 +41,6 @@ namespace Business.Concrete
             _productDal.Add(product);
 
             return new SuccessResult(Messages.ProductAdded);
-
         }
 
 
@@ -55,6 +54,7 @@ namespace Business.Concrete
 
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductsListed);
         }
+
 
         public IDataResult<List<Product>> GetAllByCategoryId(int id)
         {
@@ -70,15 +70,12 @@ namespace Business.Concrete
 
         public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
         {
-            return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
+            return new SuccessDataResult<List<Product>>(
+                _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
         }
 
         public IDataResult<List<ProductDetailDto>> GetProductDetails()
         {
-            if (DateTime.Now.Hour == 23)
-            {
-                return new ErrorDataResult<List<ProductDetailDto>>(Messages.MaintenanceTime);
-            }
             return new SuccessDataResult<List<ProductDetailDto>>(_productDal.GetProductDetails());
         }
 
@@ -91,7 +88,14 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
+
             throw new NotImplementedException();
+        }
+
+        public IDataResult<ProductDetailDto> GetProductDetailById(int id)
+        {
+            return new SuccessDataResult<ProductDetailDto>(_productDal.GetProductDetailById(id),
+                Messages.GetProductDetail);
         }
 
         private IResult CheckIfProductCountOfCategoryCorrect(int categoryId)
@@ -101,6 +105,7 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductCountOfCategoryError);
             }
+
             return new SuccessResult();
         }
 
@@ -111,13 +116,14 @@ namespace Business.Concrete
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExists);
             }
+
             return new SuccessResult();
         }
 
         private IResult CheckIfCategoryLimitExceded()
         {
             var result = _categoryService.GetAll();
-            if (result.Data.Count>15)
+            if (result.Data.Count > 15)
             {
                 return new ErrorResult(Messages.CategoryLimitExceded);
             }
@@ -128,17 +134,15 @@ namespace Business.Concrete
         //[TransactionScopeAspect]
         public IResult AddTransactionalTest(Product product)
         {
-
             Add(product);
             if (product.UnitPrice < 10)
             {
-                    throw new Exception("");
+                throw new Exception("");
             }
-            
+
             Add(product);
 
             return null;
         }
-
     }
 }

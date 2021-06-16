@@ -1,52 +1,55 @@
-<div class="content">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header"><h5 class="title">Add Product</h5></div>
-      <div class="card-body">
-        <form [formGroup]="productAddForm">
-          <div class="mb-3">
-            <label for="productName">Product Name</label>
-            <div class="form-group">
-              <input class="form-control"
-                     formControlName="productName"
-                     id="productName" placeholder="Product Name"
-                     type="text"/>
+<div class="my-lg-5 container-sm">
+  <div class="content">
+    <div class="col-md-6 mx-auto">
+      <div class="card">
+        <div class="card-header"><h5 class="title">Add Product</h5></div>
+        <div class="card-body">
+          <form [formGroup]="productAddForm">
+            <div class="mb-3">
+              <label for="productName">Product Name</label>
+              <div class="form-group">
+                <input class="form-control"
+                       formControlName="productName"
+                       id="productName" placeholder="Product Name"
+                       type="text"/>
+              </div>
             </div>
-          </div>
 
-          <div class="mb-3">
-            <label for="categoryId">Category</label>
-            <div class="form-group">
-              <input class="form-control"
-                     formControlName="categoryId"
-                     id="categoryId" placeholder="Category"
-                     type="number"/>
+            <div class="mb-3">
+              <label for="categoryId">Category</label>
+              <div class="form-group">
+                <input class="form-control"
+                       formControlName="categoryId"
+                       id="categoryId" placeholder="Category"
+                       type="number"/>
+              </div>
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="unitsInStock">Stock Amount</label>
-            <div class="form-group">
-              <input class="form-control"
-                     formControlName="unitsInStock"
-                     id="unitsInStock" placeholder="Stock Amount"
-                     type="number"/>
+            <div class="mb-3">
+              <label for="unitsInStock">Stock Amount</label>
+              <div class="form-group">
+                <input class="form-control"
+                       formControlName="unitsInStock"
+                       id="unitsInStock" placeholder="Stock Amount"
+                       type="number"/>
+              </div>
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="unitPrice">Unit Price</label>
-            <div class="form-group">
-              <input class="form-control"
-                     formControlName="unitPrice"
-                     id="unitPrice" placeholder="Unit Price"
-                     type="number"/>
+            <div class="mb-3">
+              <label for="unitPrice">Unit Price</label>
+              <div class="form-group">
+                <input class="form-control"
+                       formControlName="unitPrice"
+                       id="unitPrice" placeholder="Unit Price"
+                       type="number"/>
+              </div>
             </div>
-          </div>
 
-        </form>
+          </form>
+        </div>
+        <div class="card-footer">
+          <button (click)="add()" class="btn btn-fill btn-primary">Add</button>
+        </div>
       </div>
-      <div class="card-footer">
-        <button (click)="add()" class="btn btn-fill btn-primary">Add</button>
-      </div>
+
     </div>
 
   </div>

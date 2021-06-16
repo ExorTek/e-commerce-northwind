@@ -1,13 +1,15 @@
-<form [formGroup]="loginForm" class="login-form">
-  <h2>Login</h2>
-  <div class="txtb">
-    <input formControlName="email" type="email">
-    <span data-placeholder="Email"></span>
-  </div>
+<div class="login">
+  <form [formGroup]="loginForm" class="login-form">
+    <h2>Login</h2>
+    <div class="txt-box">
+      <input placeholder="Email" formControlName="email" type="email">
+    </div>
+    <script>
 
-  <div class="txtb">
-    <input formControlName="password" type="password">
-    <span data-placeholder="Password"></span>
-  </div>
-  <input (click)="login()" type="submit" class="logbtn" value="Login">
-</form>
+    </script>
+    <div class="txt-box">
+      <input placeholder="Password" formControlName="password" type="password">
+    </div>
+    <input (click)="login()" type="submit" class="login-button" value="Login">
+  </form>
+</div>

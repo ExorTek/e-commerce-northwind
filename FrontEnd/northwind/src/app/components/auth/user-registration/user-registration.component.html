@@ -1,22 +1,18 @@
-<form [formGroup]="registerForm" class="login-form">
-  <h2>Register</h2>
-  <div class="txtb">
-    <input formControlName="firstName" type="text">
-    <span data-placeholder="Name"></span>
-  </div>
-  <div class="txtb">
-    <input formControlName="lastName" type="text">
-    <span data-placeholder="Surname"></span>
-  </div>
-  <div class="txtb">
-    <input formControlName="email" type="email">
-    <span data-placeholder="Email"></span>
-  </div>
-
-  <div class="txtb">
-    <input formControlName="password" type="password">
-    <span data-placeholder="Password"></span>
-  </div>
-
-  <input (click)="register()" type="submit" class="logbtn" value="Register">
-</form>
+<div class="register">
+  <form [formGroup]="registerForm" class="login-form">
+    <h2>Register</h2>
+    <div class="txt-box">
+      <input placeholder="Name" formControlName="firstName" type="text">
+    </div>
+    <div class="txt-box">
+      <input placeholder="Surname" formControlName="lastName" type="text">
+    </div>
+    <div class="txt-box">
+      <input placeholder="Email" formControlName="email" type="email">
+    </div>
+    <div class="txt-box">
+      <input placeholder="Password" formControlName="password" type="password">
+    </div>
+    <input (click)="register()" type="submit" class="register-button" value="Register">
+  </form>
+</div>
