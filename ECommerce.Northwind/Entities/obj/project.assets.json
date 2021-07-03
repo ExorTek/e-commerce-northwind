@@ -7945,11 +7945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7970,8 +7970,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj"
+            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj"
             }
           }
         }

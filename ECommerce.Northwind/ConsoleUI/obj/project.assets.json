@@ -6101,11 +6101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
-      "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\ConsoleUI\\ConsoleTestUI.csproj",
+      "projectName": "ConsoleTestUI",
+      "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\ConsoleUI\\ConsoleTestUI.csproj",
       "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6126,14 +6126,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Business\\Business.csproj"
+            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Business\\Business.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Entities\\Entities.csproj"
             }
           }
         }

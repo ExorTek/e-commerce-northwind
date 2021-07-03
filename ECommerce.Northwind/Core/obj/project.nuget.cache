@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ducl4lSAFqga6ect0bsENzvdP/KsoKw/f56n9AryluhAMEM29ijS0+sIe4G1F9sPzCjENZnl7lqhh9hlkioR9w==",
+  "dgSpecHash": "3u7s3G5tRY5ZW77Y+PgI9L2pfOJ3cNQ2GE/035OoV9FoEj25wMwbWLGSbQmwQdq5YGovH/TaGQOqQaSnCBNE4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj": {
+    "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

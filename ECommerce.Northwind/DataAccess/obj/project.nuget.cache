@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ugm4+xlVmWaH6W6aFO/fyFvv5Iha4kO6WEzEMm0M3IoJQLFfGn8X/ylRiSwmTRSG1WLs8W3rhoyEjAsEBcqsqw==",
+  "dgSpecHash": "1APV/gIvyYxPjj/GjO3BqSGeyMqstTGIhLsbtP5IgJgu3Hdd4nh+bCH+Yg9nf0gP1Kufg+dRYimOslX2rgc/TA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\FinalProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\e-commerce-northwind\\ECommerce.Northwind\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
