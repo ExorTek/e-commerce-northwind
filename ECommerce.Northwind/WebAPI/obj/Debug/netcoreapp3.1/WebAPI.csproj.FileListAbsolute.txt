@@ -220,3 +220,8 @@ C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\obj\Debug
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
