@@ -7,3 +7,4 @@
 5. SOLID
 6. JWT
 7. FLUENT VALİDATİON
+8. SwaggerUI
