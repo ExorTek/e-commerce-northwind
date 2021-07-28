@@ -225,3 +225,4 @@ C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Memet\Desktop\e-commerce-northwind\ECommerce.Northwind\WebAPI\bin\Debug\netcoreapp3.1\web.config

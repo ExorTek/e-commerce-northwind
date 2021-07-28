@@ -5,8 +5,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>WebAPI</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\Memet\Desktop\my-final-project\FinalProject\WebAPI\Properties\PublishProfiles\FolderProfile4.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>FolderProfile</NameOfLastUsedPublishProfile>
     <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>

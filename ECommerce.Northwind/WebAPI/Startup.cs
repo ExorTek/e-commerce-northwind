@@ -1,3 +1,4 @@
+using System.IO;
 using Core.DependencyResolvers;
 using Core.Extensions;
 using Core.Utilities.IoC;
@@ -52,7 +53,10 @@ namespace WebAPI
             services.AddDependencyResolvers(new ICoreModule[] {
                new CoreModule()
             });
-            services.AddSwaggerGen();
+            services.AddSwaggerGen(c =>
+            {
+                c.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
+            });
 
 
         }
@@ -66,7 +70,7 @@ namespace WebAPI
             }
             app.ConfigureCustomExceptionMiddleware();
 
-            app.UseCors(builder=>builder.WithOrigins("http://localhost:3000").AllowAnyHeader());
+            app.UseCors(builder=>builder.WithOrigins("http://localhost:4200", "http://localhost:3000").AllowAnyHeader());
 
             app.UseHttpsRedirection();
 
@@ -74,7 +78,7 @@ namespace WebAPI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApiV1");
             });
             
 

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Memet\Desktop\NorthwindAPI</_PublishTargetUrl>
+    <History>True|2021-07-05T10:00:40.9161608Z;</History>
+  </PropertyGroup>
+</Project>
