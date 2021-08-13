@@ -53,10 +53,7 @@ namespace WebAPI
             services.AddDependencyResolvers(new ICoreModule[] {
                new CoreModule()
             });
-            services.AddSwaggerGen(c =>
-            {
-                c.IncludeXmlComments(Path.ChangeExtension(typeof(Startup).Assembly.Location, ".xml"));
-            });
+            services.AddSwaggerGen();
 
 
         }
